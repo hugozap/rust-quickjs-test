@@ -15,9 +15,10 @@ fn main() {
     }
 
     //Run javascript file
-    //load file contents test.js
-    
-    let contents = std::fs::read_to_string("/home/hugopowerschool/repos/github.com/hugozap/test-quickjs-rust/src/test.js").unwrap();
+    //load file contents from file in current directory
+
+     
+    let contents = std::fs::read_to_string("test.js").unwrap();
     //set js stdout for quickjs
     
     //run js code
